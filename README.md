@@ -12,10 +12,10 @@ hugo serve -D
 hugo -d docs
 ```
 
-commit and push to main branch and it will automatically get published to `https://wedding.ciano.co.uk`
+commit and push to main branch and it will automatically get published to `https://macarons.ciano.co.uk`
 
 ## Publish to website
-Run the following command and it will publish to the live site at `https://wedding.ciano.co.uk`. It will take about 1 minute for the changes to be live.
+Run the following command and it will publish to the live site at `https://macarons.ciano.co.uk`. It will take about 1 minute for the changes to be live.
 ```
 publish
 ```
