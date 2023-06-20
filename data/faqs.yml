@@ -1,0 +1,10 @@
+enable  : true
+title   : "Frequently Asked Questions"
+faqs: 
+  - q: "Do you deliver?"
+    a: "Yes! For £5 we will deliver them."
+  - q: "How much are they?"
+    a: "Typically they are £1 a macaron."
+  - q: "Isn't it macaroon? not macaron?"
+    a: "We make the French version of a Macaroon, this is called a Macaron."
+    

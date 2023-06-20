@@ -1,0 +1,21 @@
+{{ with .Site.Data.banner }}
+  {{ if .enable }}
+  {{ "<!-- Site Hero Start -->" | safeHTML }}
+  <section id="banner" class="site-hero" style="background-image: url('{{ .background_image }}');">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="site-hero-content text-center">
+            <h1 style="color:aliceblue">
+              {{ .heading }}
+            </h1>
+            <h6 style="font-size:xx-large; color:aliceblue; font-weight:bold">{{ .date }}</h6>
+            <h6 style="font-size:xx-large; color:aliceblue; font-weight:bold">{{ .location }}</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ "<!-- Site Hero End -->" | safeHTML }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,24 @@
+languageCode  = "en-us"
+title         = "Reni's Macarons"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = "#banner"
+    weight  = 1
+  [[menu.nav]]
+    name    = "The Team"
+    URL     = "#people"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Our Macarons"
+    URL     = "#venue"
+    weight  = 3
+  [[menu.nav]]
+    name    = "FAQs"
+    URL     = "#faqs"
+    weight  = 4

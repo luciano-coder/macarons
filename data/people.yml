@@ -1,0 +1,13 @@
+enable  : true
+title   : "The Team"
+subtitle: ""
+people :
+  - thumb : "/images/people/anya.jpg"
+    name  : "Renata Mohacsi"
+    role: "Master Baker"
+    description : > 
+
+  - thumb : "/images/people/apa.jpg"
+    name  : "Gabor Mohacsi"
+    role: "Assistant to the Master Baker"
+    description : > 
