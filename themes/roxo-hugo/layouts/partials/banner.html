@@ -1,22 +1,23 @@
 {{ with .Site.Data.banner }}
-  {{ if .enable }}
-  {{ "<!-- Site Hero Start -->" | safeHTML }}
-  <section id="banner" class="site-hero" style="background-image: url('{{ .background_image }}');">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="site-hero-content text-center" style="opacity:1; ">
-            <div style="color:aliceblue; padding: 20px 0 10px 0; margin: 0px 100px 20px 100px; opacity:0.9; background-color:#eaa4a4; -moz-border-radius:50px; -webkit-border-radius:50px; border-radius:50px;">
-              <img src="images/renis-macarons.png" class="icon" style="width: 80%;" alt="Instagram" />
+{{ if .enable }}
+{{ "<!-- Site Hero Start -->" | safeHTML }}
+<section id="banner" class="site-hero" style="background-image: url('{{ .background_image }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="site-hero-content text-center" style="opacity:1; ">
+          <div
+            style="color:aliceblue; padding: 20px 0 10px 0; margin: 0px 100px 20px 100px; opacity:0.9; background-color:#eaa4a4; -moz-border-radius:50px; -webkit-border-radius:50px; border-radius:50px;">
+            <img src="images/renis-macarons.png" class="icon" style="width: 80%;" alt="Instagram" />
           </div>
-            <a class="icon" target="_blank" href="https://www.instagram.com/renismacarons">
-              <img src="images/Instagram_icon.png" class="icon" style="height:3em;" alt="Instagram" />
-            </a>
-          </div>
+          <a class="icon" target="_blank" href="https://www.instagram.com/renismacarons">
+            <img src="images/Instagram_icon.png" class="icon" style="height:3em;" alt="Instagram" />
+          </a>
         </div>
       </div>
     </div>
-  </section>
-  {{ "<!-- Site Hero End -->" | safeHTML }}
-  {{ end }}
+  </div>
+</section>
+{{ "<!-- Site Hero End -->" | safeHTML }}
+{{ end }}
 {{ end }}
