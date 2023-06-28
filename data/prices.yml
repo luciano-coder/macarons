@@ -1,0 +1,20 @@
+enable  : true
+title   : "Prices"
+subtitle: "For other quantities, please contact us"
+background_image: "images/backgrounds/cta-background.jpg"
+timeline :
+  - time : "Box of 3:"
+    description : "£5"
+  - time : "Box of 4:"
+    description : "£6"
+  - time : "Box of 6:"
+    description : "£8"
+  - time : "Box of 10:"
+    description : "£11"
+
+
+
+
+
+
+

@@ -11,14 +11,22 @@ summarylength = 25
     url     = "#banner"
     weight  = 1
   [[menu.nav]]
-    name    = "The Team"
-    URL     = "#people"
+    name    = "Prices"
+    URL     = "#prices"
     weight  = 2
   [[menu.nav]]
-    name    = "Our Macarons"
-    URL     = "#venue"
+    name    = "The Team"
+    URL     = "#people"
     weight  = 3
   [[menu.nav]]
-    name    = "FAQs"
-    URL     = "#faqs"
+    name    = "Locations"
+    URL     = "#location"
     weight  = 4
+  # [[menu.nav]]
+  #   name    = "FAQs"
+  #   URL     = "#faqs"
+  #   weight  = 5
+  [[menu.nav]]
+    name    = "Reni's Macarons"
+    URL     = "#macarons"
+    weight  = 6

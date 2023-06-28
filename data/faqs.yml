@@ -1,4 +1,4 @@
-enable  : true
+enable  : false
 title   : "Frequently Asked Questions"
 faqs: 
   - q: "Do you deliver?"

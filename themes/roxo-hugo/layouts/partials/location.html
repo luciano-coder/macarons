@@ -1,0 +1,22 @@
+{{ with .Site.Data.location }}
+  {{ if .enable }}
+  <section id="location" class="site-testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>
+              {{ .title }}
+            </h2>
+            <p>
+              {{ .subtitle }}
+            </p>
+          </div>
+        </div>
+        <iframe width="100%" height="600" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="{{ .maps_embedded_url }}">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
