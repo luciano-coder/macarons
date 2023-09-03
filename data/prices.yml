@@ -1,5 +1,13 @@
 enable  : true
 title   : "Prices"
+subtitle: "Prices of macarons are:
+
+Plain: £1.25 / piece
+Decorated/shape: £1.50 / piece
+
+Box: £ 1 + delivery (in case of personal collection of course, only the price of the box)
+
+Plastic container and collection in Andover (or on selected days in Chandler’s Ford) is included in the price."
 subtitle: "For other quantities, please contact us"
 background_image: "images/backgrounds/cta-background.jpg"
 timeline :
