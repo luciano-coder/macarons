@@ -22,7 +22,7 @@ images:
   - "images/macaron1.jpeg"
   - "images/macaron2.jpeg"
   - "images/macaron3.jpeg"
-  - "images/macaron4.jpeg"
+  # - "images/macaron4.jpeg"
   - "images/macaron5.jpeg"
   - "images/macaron6.jpeg"
   - "images/macaron7.jpeg"
