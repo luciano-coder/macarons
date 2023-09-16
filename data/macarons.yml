@@ -4,17 +4,19 @@ title   : "Reni's Macarons"
 flavours:
   title: "Flavours"
   flavours:
-    - "Dark Chocolate/Orange Ganache"
-    - "Dark Chocolate/Nuttela Ganache"
-    - "Milk Chocolate/Walnut Ganache"
-    - "Milk Chocolate/Biscoff Ganache"
-    - "White Chocolate/Pistachio Raspberry Ganache"
-    - "White Chocolate/Lemon Curd Ganache"
-    - "White Chocolate/Blueberry Ganache"
-    - "White Chocolate/Lemon & Lavendar Ganache"
+    - "Dark Chocolate - Orange Ganache"
+    - "Dark Chocolate - Nuttela Ganache"
+    - "Milk Chocolate - Walnut Ganache"
+    - "Milk Chocolate - Biscoff Ganache"
+    - "White Chocolate - Pistachio Raspberry Ganache"
+    - "White Chocolate - Lemon Curd Ganache"
+    - "White Chocolate - Blueberry Ganache"
+    - "White Chocolate - Lemon & Lavendar Ganache"
 
+allergens_title: "Allergens"
 allergens:
-  title: "Allergens: Egg, Dairy product, Almond, may contain nuts"
+  - "Egg white, dairy product, Almond, may contain nuts"
+  - "Gluten Free"
 
 images:
   - "images/macaron1.jpeg"

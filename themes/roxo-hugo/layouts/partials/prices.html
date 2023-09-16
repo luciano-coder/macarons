@@ -27,6 +27,23 @@
               </tbody>
             </table>
           </div>
+          <p style="font-size:1.5em">
+            {{ .boxes_title }}
+          </p>
+            <div class="table">
+              <table class="grid" style="width: 100%;" cellspacing="1">
+                {{ range .boxes_list }}
+                <tr>
+                  <td class="text-top" style="width: 50%;">
+                    <div class="text-top">
+                      <h6 style="font-size:1.5em">{{ . }}</h6>
+                    </div>
+                  </td>
+                </tr>
+                {{ end }}
+                </tbody>
+              </table>
+            </div>
       </div>
     </div>
   </div>

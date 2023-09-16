@@ -12,11 +12,14 @@
             <div class="site-project-single-description" style="margin: 0 0 0 0;">
               <p><h4>{{ .flavours.title }}</h4></p>
               {{ range .flavours.flavours }}
-              <p style="margin: 0 0 5px 20px; font-size: large;">{{ . }}</p>
+              <p style="margin: 0 0 5px 20px; font-size: 1.2em;">{{ . }}</p>
               {{ end }}
               <br/>
               <div class="section-title">
-                <p><b>{{ .allergens.title }}</b></p>
+                <p><h4>{{ .allergens_title }}</h4></p>
+                {{ range .allergens }}
+                <p style="margin: 0 0 5px 20px; font-size: 1.2em;">{{ . }}</p>
+                {{ end }}
               </div>
             </div>
           </div>
